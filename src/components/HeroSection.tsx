@@ -16,8 +16,8 @@ const HeroSection = () => {
   }, []);
 
   const handleExploreBlueCarbon = () => {
-    // Redirect to the Blue Carbon MRV system login page on Render
-    window.open('newss2-eight.vercel.app', '_blank');
+    // Redirect to the Blue Carbon MRV system hosted on Vercel
+    window.open('https://newss2-eight.vercel.app', '_blank');
   };
 
   const handleLearnMore = () => {
