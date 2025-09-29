@@ -18,7 +18,7 @@ const EcosystemsSection = () => {
       title: "Seagrass Meadows",
       description: "Underwater flowering plants that create extensive root systems storing carbon",
       image: "🌱",
-      stats: "Cover <1% of ocean floor but store 10% of marine carbon"
+      stats: "Cover &lt;1% of ocean floor but store 10% of marine carbon"
     }
   ];
 
@@ -30,7 +30,7 @@ const EcosystemsSection = () => {
             Blue Carbon Ecosystems
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            These remarkable coastal habitats are nature's most efficient carbon storage systems, 
+            These remarkable coastal habitats are nature&apos;s most efficient carbon storage systems, 
             protecting our climate while supporting incredible biodiversity.
           </p>
         </div>

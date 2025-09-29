@@ -16,8 +16,8 @@ const HeroSection = () => {
   }, []);
 
   const handleExploreBlueCarbon = () => {
-    // Redirect to the Blue Carbon MRV system hosted on Render
-    window.open('https://blue-carbon-mrv-frontend.onrender.com', '_blank');
+    // Redirect to the Blue Carbon MRV system login page on Render
+    window.open('https://blue-carbon-mrv-frontend.onrender.com/login', '_blank');
   };
 
   const handleLearnMore = () => {

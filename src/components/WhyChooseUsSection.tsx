@@ -49,7 +49,7 @@ const WhyChooseUsSection = () => {
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
             The carbon credit industry is plagued with fraud, exploitation, and fake promises. 
-            We're using blockchain technology to solve these critical problems.
+            We&apos;re using blockchain technology to solve these critical problems.
           </p>
           <div className="bg-red-100 border border-red-200 rounded-lg p-4 max-w-2xl mx-auto">
             <p className="text-red-800 font-medium">

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { ReactNode } from 'react';
+import Image from 'next/image';
 
 interface Logo {
   node?: ReactNode;
@@ -32,7 +33,6 @@ const LogoLoop: React.FC<LogoLoopProps> = ({
   pauseOnHover = false,
   scaleOnHover = false,
   fadeOut = false,
-  fadeOutColor = '#ffffff',
   ariaLabel = 'Logo carousel'
 }) => {
   const animationDuration = `${speed}s`;
@@ -117,20 +117,24 @@ const LogoLoop: React.FC<LogoLoopProps> = ({
                 }}
               >
                 {logo.node || (
-                  <img
-                    src={logo.src}
+                  <Image
+                    src={logo.src!}
                     alt={logo.alt || logo.title || 'Logo'}
-                    style={{ height: '100%', objectFit: 'contain' }}
+                    width={logoHeight}
+                    height={logoHeight}
+                    style={{ height: '100%', objectFit: 'contain', width: 'auto' }}
                   />
                 )}
               </a>
             ) : (
               <>
                 {logo.node || (
-                  <img
-                    src={logo.src}
+                  <Image
+                    src={logo.src!}
                     alt={logo.alt || logo.title || 'Logo'}
-                    style={{ height: '100%', objectFit: 'contain' }}
+                    width={logoHeight}
+                    height={logoHeight}
+                    style={{ height: '100%', objectFit: 'contain', width: 'auto' }}
                   />
                 )}
               </>
